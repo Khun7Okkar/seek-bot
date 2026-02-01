@@ -1,0 +1,21 @@
+# User Data
+Khun Okkar - CV.pdf
+Khun Okkar - Cover Letter Format.docx
+
+# Output Data
+data/
+Generated_Cover_Letters/
+jobs_found.xlsx
+jobs_report.md
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
