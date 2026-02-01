@@ -31,4 +31,9 @@ SCROLL_PAUSE_TIME = 1.5
 PAGES_TO_SCRAPE = 3
 
 # Output Settings
+# Output Settings
 DATA_DIR = "data"
+
+# User Files
+CV_FILENAME = "Username - CV.pdf"
+TEMPLATE_FILENAME = "Username - Cover Letter Format.docx"

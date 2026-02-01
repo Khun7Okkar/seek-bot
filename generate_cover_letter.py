@@ -10,9 +10,10 @@ from browser_agent import BrowserAgent
 from extractor import JobExtractor
 
 # Filenames
-CV_FILE = "Khun Okkar - CV.pdf"
-TEMPLATE_FILE = "Khun Okkar - Cover Letter Format.docx"
-JOBS_FILE = "jobs_found.xlsx"
+# Filenames
+CV_FILE = config.CV_FILENAME
+TEMPLATE_FILE = config.TEMPLATE_FILENAME
+JOBS_FILE = os.path.join(config.DATA_DIR, "jobs_found.xlsx")
 LLM_API_URL = f"{config.LLM_API_BASE}/chat/completions"
 
 async def fetch_full_job_description(url):
